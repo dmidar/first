@@ -1,0 +1,356 @@
+*{margin: 0;}
+
+body{background-color: #ffffff;
+     font-family: 'Exo 2', sans-serif;
+     width: 100%;
+     font-size: 16px;}
+
+h1{font-size: 48px;
+   letter-spacing: 3px;}
+h2{font-size: 36px;
+   letter-spacing: 1px;}
+h5{font-size: 16px;}
+h4{font-size: 20px;
+   letter-spacing: 0.5px;
+   font-weight: 600}
+
+.wrap{width: 100%;
+      height: 680px;
+      color: #ffffff;
+      background-image: url(../images/background.png);
+      background-size: cover;}
+
+.container,
+.container2,
+.container3,
+.container5,
+.container6{margin-right: auto;
+            margin-left: auto;
+            width: 960px;}
+
+header{font-size: 14px;
+       font-weight: bold;
+       letter-spacing: 0.5px;
+       padding-top: 28.35px;}
+
+.left{width: 410px;
+      height: 85px;
+      float: left;
+      position: relative;}
+
+.centre{width: 140px;
+        height: 85px;
+        float: left;
+        text-align: center;}
+
+.right{width: 410px;
+       height: 85px;
+       overflow: hidden;
+       text-align: right;
+       position: relative;}
+
+.left p,
+.right p{margin-top: 28.35px;}       
+
+.left li,
+.right li{list-style-type: none;
+          display: inline-block;}
+
+.left li{float: left;
+         margin-right: 55px;}
+
+.right li{float: right;
+          margin-left: 56px;}
+
+.menu{position: absolute;
+      bottom: 3px;
+      padding-left: 0;
+      right: 0;
+      left: 0;}
+
+.menu li a{text-decoration: none;
+           color: #ffffff}
+
+.middle{margin-top: 112px;
+        text-align: center;}
+
+.middle hr{margin: 20px auto 34px;
+           border: 2px solid;
+           color: #ffffff;
+           width: 82px;}
+
+.middle h1{line-height: 60px;}
+
+.container2{height: 700px;}
+
+.container2 h2{padding-top: 64px;
+               line-height: 53px}
+
+.advert{padding-top: 55px;
+        display: flex;
+        justify-content: space-between;}
+
+.advert img{margin-bottom: 20px;}
+
+.advert ul{padding-left: 0px;}
+
+.radio{width: 300px;}
+
+.tv{width: 390px;}
+
+.project{width: 270px;}
+
+.advert>ul>p{font-weight: bolder;
+            margin-bottom: 14px;}
+
+.advert>ul>li{list-style: none;
+              padding-left: 0px;
+              line-height: 30px;
+              font-weight: 300}
+
+.advert>ul>li:before {content:"\2014\0020";
+                      width: 0;
+                      display: inline-block;
+                      text-indent: -20px;}
+
+.button1{margin-top: 70px;
+        border: 2px solid;
+        width: 380px;
+        height: 60px;
+        font-size: 20px;
+        font-weight: bold;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        cursor: pointer;}
+
+.wrap2{width: 100%;
+       height: 400px;
+       background-image: url(../images/background2.png);
+       color: #ffffff;
+       background-size: cover;}
+
+.container3{width: 960px;
+            height: 400px;}
+
+.container3>h2{padding-top: 80px;
+               padding-bottom: 52px;
+               font-weight: 600;}
+
+.middle3{display: flex;
+         justify-content: space-between;}
+
+.numeral>p{font-size: 80px;
+          font-weight: 600;
+          padding-bottom: 12px;}
+
+.container4{width: 100%;
+            height: 450px;
+            margin-left: auto;
+            margin-right: auto;}
+
+.container4 h2{margin-right: auto;
+               margin-left: auto;
+               width: 960px;
+               padding-top: 80px;} 
+
+.photos{padding-top: 50px;
+        display: flex;
+        justify-content: center;}
+
+.pic1{background: url(../images/videoinfo.png) no-repeat;}
+.pic2{background: url(../images/reports.png) no-repeat;}
+.pic3{background: url(../images/ad.stories.png) no-repeat;}
+.pic4{background: url(../images/game.stories.png) no-repeat;}
+.pic5{background: url(../images/radio.ad.png) no-repeat;}
+.pic6{background: url(../images/tv.ad.png) no-repeat;}
+
+.pic1,.pic2,.pic3,.pic4,.pic5,.pic6{
+  text-decoration: none;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  position: relative;}
+
+.pic1>p,.pic2>p,.pic3>p,.pic4>p,.pic5>p,.pic6>p{
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  align-self: flex-end;
+  margin-left: 17px;
+  margin-bottom: 17px;}
+
+.pic1 a:hover{background: url(../images/videoinfo-hov.png) no-repeat;
+              margin: -8.3%;
+              width: 240px; 
+              height: 240px;
+              z-index: 1;
+              align-self: center;}
+
+.pic1:hover p{text-align: center;
+              align-self:center;
+              margin-left: auto;
+              margin-right: auto;}
+
+.pic2 a:hover{background: url(../images/reports-hov.png) no-repeat;
+              margin: -8.3%;
+              width: 240px; 
+              height: 240px;
+              z-index: 1}
+
+.pic2:hover p{text-align: center;
+              align-self:center;
+              margin-left: auto;
+              margin-right: auto;}
+
+.pic3 a:hover{background: url(../images/ad.stories-hov.png) no-repeat;
+              margin: -8.3%;
+              width: 240px; 
+              height: 240px;
+              z-index: 1}
+
+.pic3:hover p{text-align: center;
+              align-self:center;
+              margin-left: auto;
+              margin-right: auto;}
+
+.pic4 a:hover{background: url(../images/game.stories-hov.png) no-repeat;
+              margin: -8.3%;
+              width: 240px; 
+              height: 240px;
+              z-index: 1}
+
+.pic4:hover p{text-align: center;
+              align-self:center;
+              margin-left: auto;
+              margin-right: auto;}
+
+.pic5 a:hover{background: url(../images/radio.ad-hov.png) no-repeat;
+              margin: -8.3%;
+              width: 240px; 
+              height: 240px;
+              z-index: 1}
+
+.pic5:hover p{text-align: center;
+              align-self:center;
+              margin-left: auto;
+              margin-right: auto;}
+
+.pic6 a:hover{background: url(../images/tv.ad-hov.png) no-repeat;
+              margin: -8.3%;
+              width: 240px; 
+              height: 240px;
+              z-index: 1}
+
+.pic6:hover p{text-align: center;
+              align-self:center;
+              margin-left: auto;
+              margin-right: auto;}
+
+.review,.partners{height: 440px;}
+
+.review>h4,.partners>h4{padding-bottom: 27px;}
+
+.review{width: 350px;
+        float: left;
+        line-height: 23px;}     
+
+.review p{font-weight: 300}
+
+.partners{overflow: hidden;
+          padding-left: 120px;}
+
+.logos{padding-top: 3px}
+
+.logos td{padding-right: 60px;
+           padding-bottom: 60px;
+           border-spacing: 0}
+
+.button2{border: 2px solid;
+        width: 240px;
+        height: 40px;
+        font-weight: 600;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        cursor: pointer;}
+
+.wrap3{position: relative;
+       width: 100%;
+       height: 430px;}
+
+.container6{margin-top: 55px;
+            position: relative;}
+
+.footer{margin-top: 30px;
+        display: inline-flex;
+        justify-content: space-around;
+        position: relative;}
+
+.contacts{padding-top: 18px;
+          margin-right: 70px;
+          margin-bottom: 35px;
+          width: 240px;
+          color: #666666;
+          font-size: 14px;}
+
+.contacts h5{color: black;
+            padding-bottom: 5px;}
+
+.adress:before{content: url("../images/point.png"); 
+              padding-bottom: 30px;
+              padding-right: 12px;
+              float: left;}
+
+.mail:before{content: url("../images/mail.png");
+             padding-right: 7px;}
+
+.call:before{content: url("../images/call.png"); 
+             padding-right: 8px;
+             float: left;}
+
+.icons{padding-top: 13px;
+       padding-left: 30px}
+
+.icons img{padding-right: 7px;}
+
+.copy{padding-top: 33px;
+      font-size: 12px;}
+
+form{width: 320px;
+     height: 380px;
+     box-sizing: border-box;
+     background-color: black;
+     padding: 22px 28px;}
+
+form h5{color: white;
+        padding-bottom: 18px;}
+
+input,textarea{width: 248px;
+               margin-bottom: 18px;
+               font-family: 'Exo 2', sans-serif;
+               font-size: 16px;}
+
+input{height: 34px;
+      padding-left: 10px;}
+
+textarea{height: 110px;
+         padding-left: 10px;}
+
+button{width: 261px;
+       height: 40px;
+       font-family: 'Exo 2', sans-serif;
+       font-size: 16px;
+       color: white;
+       background-color: black;
+       border: 2px solid white;
+       font-weight: 500;}
+
+.map {height: 380px;
+      width: 524px;
+      overflow: hidden;}
+
+.up{position: absolute;
+    left: 30px;
+    bottom: 30px;}
